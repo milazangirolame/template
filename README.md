@@ -8,7 +8,7 @@ Just a template with light colors for creating new rails apps
   --database postgresql \
   --webpack \
   -m https://github.com/milazangirolame/template/blob/master/template_with_devise.rb \
-  mude_para_o_nome_da_sua_aplicacao_
+  mude_para_o_nome_da_sua_aplicacao
 
 
   ```
