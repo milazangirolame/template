@@ -57,8 +57,8 @@ end
 ########################################
 run 'rm -rf app/assets/stylesheets'
 run 'rm -rf vendor'
-run 'curl -L https://github.com/milazangirolame/template/stylesheets/master.zip > stylesheets.zip'
-run 'unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets'
+run 'curl -L https://github.com/milazangirolame/template/stylesheets/light.zip > stylesheets.zip'
+run 'unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/light app/assets/stylesheets'
 
 run 'rm app/assets/javascripts/application.js'
 file 'app/assets/javascripts/application.js', <<-JS
