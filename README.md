@@ -4,7 +4,9 @@ Just a template with light colors for creating new rails apps
 
 ## How to use
 
-``` rails new \
+```
+
+rails new \
   --database postgresql \
   --webpack \
   -m https://github.com/milazangirolame/template/blob/master/template_with_devise.rb \
