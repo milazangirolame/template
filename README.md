@@ -1,4 +1,4 @@
-#Template
+# Template
 
 Just a template with light colors for creating new rails apps
 
