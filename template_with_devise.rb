@@ -35,43 +35,6 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-RUBYrun 'pgrep spring | xargs kill -9'
-
-# GEMFILE
-########################################
-run 'rm Gemfile'
-file 'Gemfile', <<-RUBY
-source 'https://rubygems.org'
-ruby '#{RUBY_VERSION}'
-
-#{"gem 'bootsnap', require: false" if Rails.version >= "5.2"}
-gem 'devise'
-gem 'figaro'
-gem 'jbuilder', '~> 2.0'
-gem 'pg', '~> 0.21'
-gem 'puma'
-gem 'rails', '#{Rails.version}'
-gem 'redis'
-
-gem 'autoprefixer-rails'
-gem 'bootstrap-sass', '~> 3.3'
-gem 'font-awesome-sass', '~> 5.0.9'
-gem 'sass-rails'
-gem 'simple_form'
-gem 'uglifier'
-gem 'webpacker'
-
-group :development do
-  gem 'web-console', '>= 3.3.0'
-end
-
-group :development, :test do
-  gem 'pry-byebug'
-  gem 'pry-rails'
-  gem 'listen', '~> 3.0.5'
-  gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
-end
 RUBY
 
 # Ruby version
